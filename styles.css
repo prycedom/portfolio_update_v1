@@ -91,13 +91,17 @@ header .Hobbies-image {
 header .Hobbies-image:hover {
   transform: scale(1.5) rotate(5deg);
 }
-
-
-
-
-
-
-
+header .Experience-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .Experience-image:hover {
+  transform: scale(1.5) rotate(5deg);
+}
 .tag {
   background-color: #efefef;
   color: rgb(24, 152, 184);
